@@ -16,7 +16,7 @@ elif purchase_amount > 500:
 
 discounted_amount = purchase_amount - discount
 
-print(f'Discounted amount: ${discounted_amount:.3f}')
+print(f'Discounted amount: ${discounted_amount:.2f}')
 if discounted_amount < 200:
     tax = discounted_amount * 0.05
     print(f'Tax for discount less than $200: ${tax:.2f}')
